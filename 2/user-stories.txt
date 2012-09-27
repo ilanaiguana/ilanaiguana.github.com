@@ -21,4 +21,4 @@ II. Three user stories for Kids R Kids (Local toy store)
 2. Family needs presents for overseas relatives. Five cousins ranging from ages 3 - 12. Looking for toys without electricity, perhaps some games that don't require any english. Need variety of ages.
 
 
-3. Family going on an airplane trip; two boys 3 and 5. Needs to be without batteries. 
+3. Family going on an airplane trip; two boys 3 and 5. Needs to be without batteries. Looking for toys which take time but wont get lost on during the trip.
