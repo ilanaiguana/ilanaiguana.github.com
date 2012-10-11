@@ -97,33 +97,62 @@ header#site-header h1 a { display:block; width:100px; height:100px; background:u
 
 								/* start styling */
 								
-h2 {
+
+h1  {
 	margin:10px 10px 0 10px;
 	
 	font-family:helvetica;
 	line-height:2;
-}								
+	
+	color:#A52A2A;
+}
+
 
 
 
 li a {
 	
 	padding:25px 0 0 25px;
-	line-height:2;
 		
 	font-family:Helvetica;
 	margin:0 10px 0 10px;
 	
 	text-decoration: none;
+	line-height:2;
+ 	color:#FA8072;
+
+
 }
 
+li.widow {
+	
+	padding:0px 0 0 25px;
+		
+	font-family:Helvetica;
+	margin:0 10px 0 10px;
+	
+	text-decoration: none;
+	line-height:2;
+	color:#FA8072;
+}
 
+li.subcategory {
+	
+	padding:0px 0 0 25px;
+	line-height:2;
+		
+	font-family:Helvetica;
+	margin:0 25px 0 10px;
+	
+	text-decoration: none;
+	color:#00BFFF;
+}
 								
 								
-a:link    {color:#2F4F4F;}
+a:link    {color:#8FBC8F;}
 a:visited {color:#003366;}
 a:hover   {color:#339999;}
-a:active  {color:#339999;}
+a:active  {color:#DDA0DD;}
 
 
 header h1 {
