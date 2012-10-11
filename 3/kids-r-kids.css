@@ -102,41 +102,58 @@ head {
 
 
 body {
+	
+	margin:0 auto;
+	
+	background-color:#FFFF33; 
+	<!-- yellow -->
 
 }
 
 header {
-		
+		width:1260px;
+		height:50px;
+	 
 }
 
-#site-wrapper   {
+
+#top-nav {
 	
-	margin:0 auto;
-
+	float:left;
+	height:100px;
+	width:960px;
+ 
 }
 
 
-#site-header {
+section {
 		
 	position:relative;
-	width:1060px;
-	height:100px;
+	width:960px;
+	height:600px;
+	background-color:gray;
 	
 }
 
 
-#site-wrapper   {
-	
-	margin:0 auto;
 
-}
-
-header li a{
+header li a {
 	
-	color:#006666;
+	color:#FFFF33; 	
+	<!-- yellow -->
+	
 	font-family:helvetica;
+	
+	float:right;
+	
+
+	top:25px;
+	padding:5px;
 
 }
+
+
+
 
 #kids-r-kids {
 	
@@ -161,29 +178,49 @@ a {
 }
 
 
-#top-nav {
+#toy-nav {
 
-	position:absolute;
+	background-color:#00CC00;
+		<!-- green -->
 	
-	left:300px;
-	top:25px;
-	
-	height:25px;
-	padding:5px;
+	width:1060px;
+	height:600px;
 	
 }
 
-#top-nav ul li {
+#toy-nav ul li {  <!-- toy categories -->
 	
 	float:left;
 	list-style: none;
 
 }
 
-#top-nav a {
+#toy-nav a {	
 	
 	text-decoration:none;
-	padding:0 10px 0 10px;
+	padding:25px 10px 0 10px;
 	
+ 	bottom:25px;
+	font-size:150%;
+		
+}
+
+
+
+
+#container {
+	
+	width:600px;
+	height:460px;
+	background-color:#9933CC;
+	<!--purple-->
+	
+	
+	position:absolute;
+	padding:10px 10px 10px 10px;
 	
 }
+
+
+
+
