@@ -122,27 +122,43 @@ body {
 
 header {
 		
-	position:absolute;
+	position:relative;
 	top:10px;
-	background-color:aqua;
 	
 	
 	width:960px;
-	height:100px;
+	height:125px;
 	
-	margin:10px;
+	margin:5px;
 	
 	
 }
 
+#logo {
+	
+	width:600px;
+	height:50px;
+	padding:10px 0px 0 50px;
+	
+	text-align:center;
+	
+	margin:0px 100px 10px 130px;
+		
+}
+
+
 
 #top-nav {
 
-	position:relative;
+	position:absolute;
 	
-	top:25px;
-	height:50px;
+	top:50px;
+	margin:25px 75px 5px 100px;
 	
+	height:20px;
+	width:960px;
+	
+	background-color:#FFF;
 
 }
 
@@ -156,6 +172,11 @@ header {
 	list-style: none;
 	float:left;
 	
+	padding:0px 50px 0 5px;
+	
+	margin:20px;
+	
+	
 }
 
 
@@ -167,6 +188,8 @@ header {
 	
 	height:600px;
 	width:960px;
+	
+	margin:5px;
 
 }
 
@@ -184,45 +207,20 @@ img {
 
 
 footer {
-		
-
-		
-		position:absolute;
-		bottom:10px;
-		
-		height:80px;
+			
+		clear:both;	
+		position:relative;
+ 		
+		height:100px;
 		width:960px;
 		
-		background-color:purple;
 		margin:5px;
 	
-		
-}
-
-
-#bottom-nav {
-	
-	position:relative;
-	top:10px;
-
- 
-
 }
 
 
 
-#bottom-nav li {
-
-	float:left;
- 	font-family:helvetica;
- 
-	
-}
-
-
-
-footer h5 {
-	
+footer h5 {	
 
 	font-family:helvetica;
  	font-size:.75em;
@@ -231,7 +229,32 @@ footer h5 {
 
 
 
+#bottom-nav {
+	
 
+	position:absolute;
+	bottom:0px;
+}
+
+
+
+#bottom-nav li {
+
+	float:left;
+	
+	font-family:helvetica;
+	padding:0 25px 25px 140px;
+	 
+}
+
+
+
+h5.copyright {
+	
+ 
+	text-align:center;
+
+}
 
 
 
