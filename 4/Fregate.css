@@ -125,24 +125,24 @@ h1 {
 	
 }
 
+
 body {
  
-	margin:20px;
+	margin:0px auto;
+	width:960px;
 
 }
 
 
 
 header {
-	
-
 		
 	position:relative;
 	top:10px;
 	
-	
+	color:#FFF;
 	width:960px;
-	height:125px;
+	height:80px;
 	
 	margin:5px;
 	
@@ -151,15 +151,16 @@ header {
 
 #logo {
 	
-	width:600px;
-	height:50px;
-	padding:10px 0px 0 50px;
+	width:960px;
+	height:100px;
+	padding:10px 0px 0 0px;
 	
 	text-align:center;
 	
-	margin:0px 100px 10px 130px;
 
-	background-image: url ("images/sky.jpg"):
+	background-image: url('images/tropics.jpg');
+	background-repeat:repeat;
+		opacity:0.8;
 		
 }
 
@@ -201,15 +202,19 @@ a:hover {
 	padding:0px 50px 0 5px;
 	
 	margin:20px;
-	color:#00C;
+	color:#00C; /* royal blue */
 	
 }
 
-
+section {
+	
+ 
+	
+}
 
 #main-div {
 
-	margin:10px;
+	position:absolute;
 	
 	height:600px;
 	width:960px;
@@ -221,38 +226,84 @@ a:hover {
 
 #chat {
 	
-	position:absolute;
+	position:relative;
 	top:200px;
-	right:250px;
+	right:20px;
 	
 	font-family:helvetica;
 	font-weight:bold;
 	font-size:1.25em;
 	color:#FFF;
+	
+	opacity:0.5;
+	text-align:center;
+	
 }
 
+#chat p {
+		
+	font-weight:normal;
+	text-align:center;
+}
 
 img {
 	
 		width:960px;
+		height:600px%;
 		 
 }
 
+#lang-nav h4 {
+	
+	font-family:helvetica;
+	font-size:.75em;
+}
+
+#lang-nav li {
+	
+	 	float:right;
+		width:60px;
+		color:#336600; /* olive */
+}
+
+#bottom-nav {
+
+	
+	position:relative;
+	width:960px;
+	height:20px;
+	
+	bottom:10px;
+
+}
+
+
+
+#bottom-nav li {
+
+	float:left;
+	width:33%;
+	text-align:center;
+	
+	font-family:helvetica;
+
+}
 
 
 
 footer {
 			
 		clear:both;	
-		position:relative;
+		position:absolute;
 		
-		bottom:0px;
+		bottom:100px;
  		
 		height:80px;
 		width:960px;
 		
 		margin:5px;
 }
+
 
 footer a:hover {
 	
@@ -261,38 +312,27 @@ footer a:hover {
  
 }
 
+
 footer p {	
 
 	font-family:helvetica;
  	font-size:.75em;
 	
  	color:#0CC;
-	text-align:right;
-	padding:25px 0 0 0;
+ 	padding:0px 0 0 5px;
+	text-align:center;
 }
 
 
 
-#bottom-nav {
+
+footer span {
 	
-	position:absolute;
+	color:#CCC;
+	padding:0 0 0 10px;
+
+
 }
-
-
-
-#bottom-nav li {
-
-	float:left;
-	
-	font-family:helvetica;
-	padding:0 25px 0px 140px;
-	
-	
-	 
-}
-
-
-
 
 
 

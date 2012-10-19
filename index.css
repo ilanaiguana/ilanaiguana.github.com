@@ -105,8 +105,9 @@ h1  {
 	line-height:2;
 	
 	color:#A52A2A;
-}
+	font-size:2em;
 
+}
 
 
 
@@ -149,15 +150,16 @@ li.subcategory {
 }
 								
 								
-a:link    {color:#8FBC8F;}
-a:visited {color:#003366;}
-a:hover   {color:#339999;}
-a:active  {color:#DDA0DD;}
+a:link    {color:#8FBC8F;} /* sea-green */
+a:visited {color:#A52A2A;} /*  pink  */
+a:hover   {color:#339999;} /* light blue */
+a:active  {color:#DDA0DD;} /*    */
 
 
-header h1 {
-			color:#006666;
+li h2 {
+			color:#006666;/*   */
 			font-family:helvetica;
+			font-weight:bold;
 
 			}
 
