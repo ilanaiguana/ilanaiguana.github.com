@@ -130,7 +130,7 @@ body {
  
 	margin:0px auto;
 	width:960px;
-
+PADDING:10PX;
 }
 
 
@@ -180,8 +180,8 @@ a:hover {
 
 	position:absolute;
 	
-	top:50px;
-	margin:25px 75px 5px 100px;
+	top:10px;
+	margin:5px 75px 5px 100px;
 	
 	height:20px;
 	width:960px;
@@ -201,7 +201,7 @@ a:hover {
 	
 	padding:0px 50px 0 5px;
 	
-	margin:20px;
+	margin:10px;
 	color:#00C; /* royal blue */
 	
 }
@@ -224,26 +224,28 @@ section {
 }
 
 
-#chat {
+#chat ul {
 	
-	position:relative;
-	top:200px;
-	right:20px;
+	clear:both;
 	
+	position:absolute;
+	top:60px;
+	right:0px;
+ 	
 	font-family:helvetica;
-	font-weight:bold;
 	font-size:1.25em;
 	color:#FFF;
 	
-	opacity:0.5;
-	text-align:center;
+	opacity:0.75;
+	width:180px;
 	
 }
 
-#chat p {
+#chat li {
 		
-	font-weight:normal;
+	font-weight:bold;
 	text-align:center;
+	
 }
 
 img {
@@ -268,12 +270,12 @@ img {
 
 #bottom-nav {
 
-	
+	clear:both;
 	position:relative;
 	width:960px;
-	height:20px;
+	height:25px;
 	
-	bottom:10px;
+	bottom:50px;
 
 }
 
@@ -290,7 +292,6 @@ img {
 }
 
 
-
 footer {
 			
 		clear:both;	
@@ -303,7 +304,6 @@ footer {
 		
 		margin:5px;
 }
-
 
 footer a:hover {
 	
