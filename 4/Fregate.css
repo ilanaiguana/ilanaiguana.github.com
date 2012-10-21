@@ -151,7 +151,7 @@ header {
 
 #logo {
 	
-	width:960px;
+	width:900px;
 	height:100px;
 	padding:10px 0px 0 0px;
 	
@@ -207,9 +207,9 @@ a:hover {
 }
 
 section {
-	
+		
  
-	
+ 	
 }
 
 #main-div {
@@ -229,8 +229,8 @@ section {
 	clear:both;
 	
 	position:absolute;
-	top:60px;
-	right:0px;
+	top:40px;
+	right:50px;
  	
 	font-family:helvetica;
 	font-size:1.25em;
@@ -248,25 +248,13 @@ section {
 	
 }
 
-img {
+#main-image img {
 	
-		width:960px;
-		height:600px%;
+		width:900px;
+		height:600px;
 		 
 }
 
-#lang-nav h4 {
-	
-	font-family:helvetica;
-	font-size:.75em;
-}
-
-#lang-nav li {
-	
-	 	float:right;
-		width:60px;
-		color:#336600; /* olive */
-}
 
 #bottom-nav {
 
@@ -275,7 +263,7 @@ img {
 	width:960px;
 	height:25px;
 	
-	bottom:50px;
+	bottom:40px;
 
 }
 
@@ -294,13 +282,11 @@ img {
 
 footer {
 			
-		clear:both;	
-		position:absolute;
-		
-		bottom:100px;
+		clear:both;			
+		bottom:0px;
  		
-		height:80px;
-		width:960px;
+		height:50px;
+		width:900px;
 		
 		margin:5px;
 }
@@ -319,7 +305,7 @@ footer p {
  	font-size:.75em;
 	
  	color:#0CC;
- 	padding:0px 0 0 5px;
+
 	text-align:center;
 }
 
@@ -336,6 +322,19 @@ footer span {
 
 
 
+#lang-nav h4 {
+	
+	clear:both;
+	font-family:helvetica;
+	font-size:.75em;
+}
+
+#lang-nav li {
+	
+	 	float:right;
+		width:60px;
+		color:#336600; /* olive */
+}
 
 
 
