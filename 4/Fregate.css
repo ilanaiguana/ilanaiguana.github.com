@@ -178,12 +178,10 @@ a:hover {
 
 	position:relative;
 	
-	top:10px;
-	margin:5px 75px 5px 110px;
-	
+	top:40px;
 	height:20px;
-	width:900px;
-	
+	width:100%;
+
 
 }
 
@@ -196,16 +194,17 @@ a:hover {
 	list-style: none;
 	float:left;
 	
-	padding:0px 50px 0 5px;
+	padding:0px 60px;
 	
 	color:#00C; /* royal blue */
+	text-align:center;
 	
 }
 
 section {
 		
 		height:600px;
- 	
+ 		position:absolute;
 }
 
 #main-div {
@@ -223,8 +222,8 @@ section {
 	clear:both;
 	
 	position:absolute;
-	top:40px;
-	right:50px;
+	top:80px;
+	right:100px;
  	
 	font-family:helvetica;
 	font-size:1.25em;
@@ -303,7 +302,8 @@ section {
 footer {
 	
 		clear:both;	
-		position:relative;
+		position:absolute;
+		max-height:50px;
 		
 		bottom:0px;
  		
@@ -311,7 +311,7 @@ footer {
 		width:900px;
 		
 		margin:5px;
-		padding:25px 0 0 0;
+		padding:25px 0;
 		
 		
 		background-image: url('images/tropics.jpg');
