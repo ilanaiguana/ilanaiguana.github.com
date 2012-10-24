@@ -8,25 +8,6 @@
  */
  
 
-.slider-wrapper {
-	
- 	padding:25px 25px 10px 25px;
-	width:960px;
-
-}
-
-#slider {
-	
-	width:70%;
-	float:left;
-}
-
-aside {
-	
-	width:20%;
-	float:right;
- 
-}
 
 
 /* The Nivo Slider styles */
