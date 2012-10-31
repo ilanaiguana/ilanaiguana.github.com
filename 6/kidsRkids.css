@@ -85,29 +85,8 @@ table {
 }
 
 
-/* nivo slider */
+/*  slider */
 
-
-.nivoSlider {
-    position:relative;
-    background:url(images/loading.gif) no-repeat 50% 50%;
-}
-.nivoSlider img {
-    position:absolute;
-    top:0px;
-    left:0px;
-    display:none;
-}
-.nivoSlider a {
-    border:0;
-    display:block;
-}
-
-#htmlcaption {
-	
-	font-family:helvetica;
-	text-align:center;
-}
 
 
 /* start styling */
@@ -118,7 +97,7 @@ header {
 	position:relative;
 	
 	height:180px;
-	width:960px;
+	width:1024px;
 	top:10px;
 
 }
@@ -151,8 +130,7 @@ li.address {
 
 #top-nav {
 	
-	
-	
+	width:100%;
 }
 
 #top-nav li h3 {
@@ -162,6 +140,7 @@ li.address {
 	font-family:helvetica;
 	font-weight:bold;
 	margin:50px 60px 25px 70px;
+	
 		
 }
 
@@ -169,7 +148,7 @@ li.address {
  
 	float:right;
  
-	margin:50px 0px 10px 0px;
+	margin:20px 0px 10px 0px;
 	padding:25px 0 0 0;
  
 	
@@ -191,44 +170,49 @@ body {
 
 }
 
+
+#wrapper {
+	
+	float:right;
+	
+	width:20%;
+	
+}
+
+
 section {
 	
-		clear:both;
 		position:relative;
 		height:600px;
-		width:1060px;
+		width:1024px;
 	
-		margin:10px;
+		padding:25px;
 		
 		background-color:#9933CC;
 		<!--purple-->	
 }
 
-
-.slider-wrapper {
+#galleria {
 	
- 	padding:25px 25px 10px 0px;
- 	height:600px;
-}
-
-#slider {
-	
-	width:75%;
- 	margin:10px 10px 10px 25px;
+	width:70%;
+	height:500px;
+ 	
+	margin:auto;
 }
 
 
 aside {
 	
 	clear:both;	
-	float:right;
-	
 	width:20%;
 	padding:5px;
 
 }
 
-
+aside li {
+	float:right;
+	
+}
 
 aside a:hover {
 	
@@ -240,8 +224,7 @@ p.order {
 	
 		font-size:1.25em;
  		font-family:helvetica;
-			
-		margin:25px 10px 50px 10px;
+
 		color:#0C0; <!-- purple -->
 	
 }
@@ -252,7 +235,6 @@ aside li h3 {
 
 		font-family:helvetica;
 		line-height:350%;
-		
 		
 		margin:10px;
 		color:#FFFF33; 
@@ -278,7 +260,7 @@ p.quote {
 
 	
 footer {
-	
+	position:relative;
 	margin:10px;
 	
 }

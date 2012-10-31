@@ -85,29 +85,8 @@ table {
 }
 
 
-/* nivo slider */
+/*  slider */
 
-
-.nivoSlider {
-    position:relative;
-    background:url(images/loading.gif) no-repeat 50% 50%;
-}
-.nivoSlider img {
-    position:absolute;
-    top:0px;
-    left:0px;
-    display:none;
-}
-.nivoSlider a {
-    border:0;
-    display:block;
-}
-
-#htmlcaption {
-	
-	font-family:helvetica;
-	text-align:center;
-}
 
 
 /* start styling */
@@ -152,7 +131,7 @@ li.address {
 #top-nav {
 	
 	
-	
+	width:100%;
 }
 
 #top-nav li h3 {
@@ -162,6 +141,7 @@ li.address {
 	font-family:helvetica;
 	font-weight:bold;
 	margin:50px 60px 25px 70px;
+	
 		
 }
 
@@ -169,7 +149,7 @@ li.address {
  
 	float:right;
  
-	margin:50px 0px 10px 0px;
+	margin:20px 0px 10px 0px;
 	padding:25px 0 0 0;
  
 	
@@ -193,7 +173,6 @@ body {
 
 section {
 	
-		clear:both;
 		position:relative;
 		height:600px;
 		width:1060px;
@@ -204,17 +183,9 @@ section {
 		<!--purple-->	
 }
 
-
-.slider-wrapper {
+#galleria {
 	
- 	padding:25px 25px 10px 0px;
- 	height:600px;
-}
-
-#slider {
-	
-	width:75%;
- 	margin:10px 10px 10px 25px;
+	width:70%;
 }
 
 
