@@ -113,8 +113,7 @@ h1 {
 
 body {
  	
-
-
+	background-image: url("images/stitched_wool.png"); 
 	margin:0px auto;
 	width:960px;
  
@@ -142,7 +141,7 @@ header {
 	padding:10px 0px 0px 0px;
 	
 	text-align:center;
-	<!-- background-image: url("images/stitched_wool.png"); -->
+
 
 
 }
@@ -240,8 +239,9 @@ section {
 		height:600px;
 		background-color:white;
 		
+		/* rounded corners */
 		border:0px solid;
-		border-radius:20px;
+		border-radius:25px;
 		-moz-border-radius:25px; /* Firefox 3.6 and earlier */
 		
 		box-shadow: 10px 10px 5px #888888;
