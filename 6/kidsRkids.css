@@ -154,6 +154,16 @@ li.address {
 	
 }
 
+.twitterLogo li {
+ 
+	float:right;
+ 	size:25%;
+	margin:20px 0px 10px 0px;
+	padding:25px 0 0 0;
+ 
+	
+}
+
 a:link    {color:#0C0;}
 a:visited {color:green;}
 a:hover   {color:red;}
@@ -171,13 +181,13 @@ body {
 }
 
 
-#wrapper {
+/* #wrapper {
 	
 	float:right;
 	
 	width:20%;
 	
-}
+}*/
 
 
 section {
@@ -192,12 +202,19 @@ section {
 		<!--purple-->	
 }
 
+
+section  p {
+
+	font-family:helvetica;
+	color:#FF3;
+}
+
 #galleria {
 	
+	float:left;
 	width:70%;
 	height:500px;
  	
-	margin:auto;
 }
 
 
@@ -206,30 +223,17 @@ aside {
 	clear:both;	
 	width:20%;
 	padding:5px;
-
 }
 
 aside li {
-	float:right;
 	
+	float:right;
 }
 
 aside a:hover {
 	
 	color:#0C0; <!-- green -->;
 }
-
-
-p.order {
-	
-		font-size:1.25em;
- 		font-family:helvetica;
-
-		color:#0C0; <!-- purple -->
-	
-}
-
-
 
 aside li h3 {
 
@@ -241,13 +245,34 @@ aside li h3 {
 		<!-- yellow -->
 }
 
-
-section  p {
+p.order {
 	
+		font-size:1.25em;
+ 		font-family:helvetica;
 
-	font-family:helvetica;
-	color:#FF3;
+		color:#0C0; <!-- green -->
+	
 }
+
+
+#twitter {
+	
+	background-color:white;
+	padding:20px;
+		
+}
+
+#twitter p {
+	
+	color:#9933CC;	<!-- purple -->	
+}
+
+#twitter a:link 	{color:#906; font-size:.85em; text-decoration:none;}
+#twitter a:visited 	{color:#906;}
+#twitter a:hover  	{color:red;}
+#twitter a:active  	{color:#FFFF33;}
+
+
 
 p.quote {
 	

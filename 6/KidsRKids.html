@@ -17,53 +17,9 @@
 	<style>
 	    #galleria{ width: 600px; height: 480px; background: #000 }
 	</style>
-	
-	<!-- twitter -->
+
 
 	<script src='https://raw.github.com/timrwood/moment/1.7.2/min/moment.min.js'></script>
-	<script>
-	$(document).ready(function() {
-	var username = 'aplusk';
-	var count = 10;
-
-	 // var query = "birds";
-	 // var url="http://search.twitter.com/search.json?q=" + query +
-	"&rpp=5&include_entities=true&result_type=mixed&callback=?";
-	$.getJSON('https://api.twitter.com/1/statuses/user_timeline.json?screen_name='
-	+ username + '&amp;callback=?',
-		  function(data) {
-		    $.each(data,function() {
-	             var tweet = this;
-	             var user = tweet.user;
-
-	             var li = $("<li>").addClass("tweet");
-
-	             $("<img>").attr("src",user.profile_image_url)
-	                       .appendTo(li);
-
-	             var date = moment(tweet.created_at);
-
-	             $("<div>")
-	                .text(date.fromNow())
-	                .addClass("tweetDate")
-	                .appendTo(li);
-
-	             $("<div>")
-	                .text(tweet.text)
-	                .addClass("tweetText")
-	                .appendTo(li);
-
-	             li.appendTo("#tweets");
-	             console.log(tweet);
-	           });
-		  });
-	});
-	</script>
-
-	<ul id='tweets'></ul>
-	
-	<!-- end twitter script -->	
-
 
  <link rel="stylesheet" href="kidsRkids.css" type="text/css" media="screen" />
 
@@ -95,7 +51,7 @@
 				
 			 
 				<li class = "social media"><a><img src="images/facebook.jpeg" alt="Facebook"></a></li>
-				<li class = "social media"><a><img src="images/twitter.jpeg" alt = "twitter"></a></li>
+				<li class = "twitterLogo"><a><img src="images/twitter-bird-light-bgs.png" alt = "twitter"></a></li>
 				 
 			
 			</ul>
@@ -125,7 +81,7 @@
 				
 	
 						<aside>
-							
+ 
 							<ul>
 								<li><a><p class =" order">Order by Phone</p></a></li>
 								
@@ -134,6 +90,12 @@
 								<li><h3><a>Holiday Specials</a></h3></li>
 								<li><h3><a>Art Classes</a></h3></li>
 								<li><h3><a>Gift Certificates</a></h3></li>
+								
+							<li><div id="twitter">
+								<blockquote class="twitter-tweet"><p>Voting can be a family affair—check out @<a href="https://twitter.com/redbookmag">redbookmag</a>’s Take Your Child to Vote campaign: <a href="http://t.co/5BsGeVFY" title="http://OFA.BO/CWzCNb">OFA.BO/CWzCNb</a><a href="https://twitter.com/search/%23KidsVote">#KidsVote</a></p>&mdash; Michelle Obama (@MichelleObama) <a href="https://twitter.com/MichelleObama/status/263708016518500353" data-datetime="2012-10-31T18:24:25+00:00">October 31, 2012</a></blockquote>
+									<script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+						
+							</li>	</div><!-- end twitter feed -->
 							</ul>
 							
 						</aside>
