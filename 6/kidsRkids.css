@@ -150,7 +150,7 @@ li.address {
  
 	float:right;
  
-	margin:20px 0px 10px 0px;
+	margin:10px 0px 10px 0px;
 	padding:25px 0 0 0;
  
 	
@@ -242,7 +242,7 @@ aside li h3 {
 		font-family:helvetica;
 		line-height:350%;
 		
-		margin:10px;
+		margin:1px;
 		color:#FFFF33; 
 		<!-- yellow -->
 }

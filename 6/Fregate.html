@@ -10,6 +10,12 @@
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 
+<!--[if !IE 7] >
+	<style type="text/css">
+		#wrap {display:table;height:100%}
+	</style>
+<![endif]-->
+
  <link rel="stylesheet" href="Fregate.css" type="text/css" media="screen" />
 
 	<!-- start javascript -->
@@ -21,28 +27,20 @@
 
 
 
-<body>
-
+<body>	<div id="wrap"><!-- sticky footer div -->
+		<div id="main"><!-- sticky footer div-->
 			<header>
 				
-				
-				<div id="logo">
-			<h1>Fregate Island </h1>
-				</div>
-				
-				
-					
-		
 			</header>	
 	
 	
 	
-	
+		
 			<section>
 						
 						<div id="main-div">
 							
-							<hr>
+							
 							<nav id="top-nav">
 
 								<ul>
@@ -61,12 +59,19 @@
 								<li><h2><a>Book it! </a>	<h2></li>
 								<li><h3>live chat 	</h3></li>
 								</ul></div>
+						
+			<div id="logo">
+		<h1>Fregate Island Private</h1>
+		<h3>A little piece of Heaven in South Africa</h3>
+			</div>			
+			
+			
 								
 	<div id="main-image">
 	<!-- main image	 -->					
 	<img src='images/water.jpg' alt='tropical beach' title="Seychelles Island | South Africa"/>	
 	</div>						 
-						
+
 							
 						
 				<nav id="bottom-nav">
@@ -94,8 +99,7 @@
 					
 					
 			</section>	
-	
-	
+			<!--#main div sticky footer-->
 	
 <!--footer -->
 
@@ -108,6 +112,9 @@
 			&#169; copyright 2012<span style="color:#CCC">ilanaiguana</span></p>
 						
 			</footer>
+		
+		<!-- end sticky footer div #wrap --></div>	
+		</div><!--#wrap -->
 
 
 </body>
