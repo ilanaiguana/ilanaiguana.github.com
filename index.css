@@ -109,7 +109,17 @@ h1  {
 
 }
 
-
+li h3 {
+	
+	margin:5px 10px 0 50px;
+	
+	font-family:helvetica;
+	line-height:2;
+	
+	color:#CCC;
+	font-size:1em;
+	
+}
 
 li a {
 	
