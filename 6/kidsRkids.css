@@ -97,9 +97,11 @@ header {
 	position:relative;
 	
 	height:180px;
-	width:1024px;
-	top:10px;
-
+	width:1060px;
+	top:20px;
+	
+	margin:0 auto;
+ 
 }
 
 header h1 {
@@ -114,7 +116,7 @@ header h1 {
 
 h1.logo {
 	
-	font-family: 'Flavors' Helvetica sans-serif;
+	font-family: 'Flavors', Helvetica sans-serif;
 	color:#9933CC;
 	
 	font-size:5em;
@@ -179,7 +181,7 @@ body {
 	background-color:#FFFF33; 
 	<!-- yellow -->
 	
-
+	  margin:0 auto;
 }
 
 
@@ -222,14 +224,14 @@ section  p {
 
 aside {
 	
-	clear:both;	
+	float:right;	
 	width:20%;
 	padding:5px;
 }
 
 aside li {
 	
-	float:right;
+
 }
 
 aside a:hover {
@@ -261,6 +263,7 @@ p.order {
 	
 	background-color:white;
 	padding:20px;
+	margin:25px 0 0 0;
 		
 }
 
