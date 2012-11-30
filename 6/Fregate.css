@@ -97,10 +97,10 @@ html, body {height: 100%;}
 #wrap {min-height: 100%;}
 
 #main {overflow:auto;
-	padding-bottom: 10px;}  /* must be same height as the footer */
+	padding-bottom: 25px;}  /* must be same height as the footer */
 
 #footer {position: relative;
-	margin-top: -10px; /* negative value of footer height */
+	margin-top: -25px; /* negative value of footer height */
 	height: 10px;
 	clear:both;} 
 
@@ -116,7 +116,7 @@ body:before {
 
 /* gradient background */
 
-background-image: linear-gradient(bottom, rgb(75,250,221) 48%, rgb(107,196,255) 58%, rgb(140,186,255) 61%);
+/*background-image: linear-gradient(bottom, rgb(75,250,221) 48%, rgb(107,196,255) 58%, rgb(140,186,255) 61%);
 background-image: -o-linear-gradient(bottom, rgb(75,250,221) 48%, rgb(107,196,255) 58%, rgb(140,186,255) 61%);
 background-image: -moz-linear-gradient(bottom, rgb(75,250,221) 48%, rgb(107,196,255) 58%, rgb(140,186,255) 61%);
 background-image: -webkit-linear-gradient(bottom, rgb(75,250,221) 48%, rgb(107,196,255) 58%, rgb(140,186,255) 61%);
@@ -129,7 +129,7 @@ background-image: -webkit-gradient(
 	color-stop(0.48, rgb(75,250,221)),
 	color-stop(0.58, rgb(107,196,255)),
 	color-stop(0.61, rgb(140,186,255))
-);
+);*/
 
 
 
@@ -138,6 +138,7 @@ background-image: -webkit-gradient(
 #wrap {
 	
 	position:relative;
+	width:1060px;
 }
 
 
@@ -193,7 +194,7 @@ header {
 
 #logo h1 {
 	
-	font-family:'LemonChicken' Helvetica sans-serif;
+	font-family:'LemonChicken', Helvetica sans-serif;
 	color:white;
 
 	<!--color:#339933; tropical green -->;
@@ -243,11 +244,7 @@ a:hover {
 	
 }
 
-section {
-		
-		height:600px;
- 		position:absolute;
-}
+
 
 #main-div {
 	
@@ -264,8 +261,8 @@ section {
 	clear:both;
 	
 	position:absolute;
-	top:80px;
-	right:90px;
+	top:200px;
+	right:80px;
  	
 	font-family:helvetica;
 	font-size:1.25em;
@@ -278,7 +275,7 @@ section {
 
 #chat  li h2 {
 	
-		width:180px;
+		width:80px;
 		height:10px;
 
 		font-weight:bold;
