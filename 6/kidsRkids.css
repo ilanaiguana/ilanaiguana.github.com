@@ -71,6 +71,32 @@ table {
 
 
 
+/* background-gradient */
+
+#logo {
+  /* fallback */
+  background-color: #FFFF99;
+  background: url(images/linear_bg_2.png);
+  background-repeat: repeat-x;
+  
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFF99), to(#FF3));
+  
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #FFFF99, #FF3);
+  
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #FFFF99, #FF3);
+  
+  /* IE 10 */
+  background: -ms-linear-gradient(top, #FFFF99, #FF3);
+  
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #FFFF99, #FF3);
+}
+	
+	
+
 /* Center Content */
 
 .centered { 
@@ -80,114 +106,117 @@ table {
 }
 
 
-/*  slider */
-
-
-
 /* start styling */
 
+p {
 
-header {
+	font-family: "Calluna";
 	
-	position:relative;
-	
-	height:180px;
-	width:1060px;
-	top:20px;
-	
-	margin:0 auto;
- 
 }
+
+
 
 #wrap {
 	
 	width:1060px;
-	margin:0 auto;
+	margin:auto 0;
 }
 
 #logoWrapper {
 	
-	width:1060px;
+	width:1100px;
+	margin:0 auto;
 
+}
+
+header {
+	
+	position:relative;
+	margin:10px 0px 0 0;
+
+	padding:5px 0 0 25px;
+ 
 }
 
 
 header h1 {
 	
- 	text-align:center;
 	font-family:helvetica;
-	
-	font-size:2.5em;	
+	font-size:2.5em;
+
 }
 
-h1.logo {
-	
-	font-family: 'Flavors', Helvetica sans-serif;
-	color:#9933CC;
-	
-	font-size:5em;
-}
 
-.address {
-	
-	width:900px;
-	
-}
+#logo h1 {
 
-.address li {
-	
-	font-family:helvetica;
+	font-family: 'Flavors';
+	color:red;
 	float:left;
-	margin:0px 3px 10px 3px;
-	width:20%;
+	font-size:5em;
+	padding:25px 10px 10px 200px;
+ 
+}
+
+#logo li {
 	
-	background-color:gray;
+	float:left;
+}
+
+#logo {
+	
+	
+	position:relative;
+	
+}
+
+#address h2 {
+	
+	font-family:'Flavors';
+	float:right;
+	width:45%;
+	
+	font-size:1.5em;
 }
 
 #top-nav {
 	
-	background-color:aqua;
+	clear:both;
 	width:1060px;
-	padding:10px;
-	height:25px;
+	height:40px;
+	
+	background-color:#9933CC; <!-- purple -->
 
 }
 
 #top-nav li {
 	 
 	float:left;
-	width:25%;
-	padding:10px 0px 0px 10px;
+	width:30%;
+	padding:15px 0px 0px 20px;
 }
 
 #top-nav h3 {
 	 
-	color:#0C0; <!-- green -->
-	width:20%;
-	font-family:Helvetica-bold;
-	top-margin:5px;
- 
+	color:#0C0 ; <!-- green -->
+	width:25%;
+	font-family:'Helvetica' ;
+	font-size:1.25em; 
+	
 }
 
-.socialMedia li {
- 
-	float:right;
-  
+.socialMedia li {  
 	
 }
 
 .twitterLogo li {
- 
-	float:right;
-	margin:10px 0px 10px 0px;
-	padding:5px 0 0 0;
- 
 	
 }
 
 .twitterLogo {
-	 	size:20%;
+
 }
+
+
 
 a:link    {color:#0C0;}
 a:visited {color:green;}
@@ -202,7 +231,7 @@ body {
 	background-color:#FFFF33; 
 	<!-- yellow -->
 	
-	  margin:0 auto;
+	margin:0 auto;
 }
 
 
@@ -216,11 +245,10 @@ body {
 section {
 	
 		float:left;
-		height:600px;
+		height:550px;
 		width:1060px;
 	
-		padding:0 10px;
-	
+		margin:0 25px;
 		background-color:#9933CC;
 		<!--purple-->	
 }
@@ -228,7 +256,7 @@ section {
 
 section  p {
 
-	font-family:helvetica;
+
 	color:#FF3;
 	
 }
@@ -238,7 +266,7 @@ section  p {
 	float:left;
 	width:70%;
 	height:500px;
- 	margin:50px 5px 10px 5px;
+ 	margin:10px 5px 10px 15px;
  	
 }
 
@@ -255,19 +283,17 @@ aside {
 	padding:5px;
 }
 
-aside li {
-	
-
-}
 
 aside a:hover {
 	
 	color:#0C0; <!-- green -->;
 }
 
+
+
 aside li h3 {
 
-		font-family:helvetica;
+		font-family:"Helvetica";
 		line-height:350%;
 		
 		margin:1px;
@@ -275,38 +301,44 @@ aside li h3 {
 		<!-- yellow -->
 }
 
+
 p.order {
 	
 		font-size:1.25em;
 	 	line-height:500%;
- 		font-family:helvetica;
+ 		font-family:'helvetica';
 
-		color:#0C0; <!-- green -->
+		color:#CC99FF;  
 	
 }
 
+
 #twitter {
 	
-	background-color:white;
+	background-color:#C9F;
 	padding:10px;
 	margin:10px 0 0 0;
+	width:75%;
+	
+	border:0px solid;
+	border-radius:20px;
+	-moz-border-radius:20px; /* Old Firefox */
 	
 }
 
 #twitter p {
 	
-	color:#9933CC;	<!-- purple -->	
 	
 }
 
 #twitter a:link 	{color:#906; font-size:.85em; text-decoration:none;}
-#twitter a:visited 	{color:#906;}
-#twitter a:hover  	{color:red;}
-#twitter a:active  	{color:#FFFF33;}
+#twitter a:visited 	{color:#9933CC;}
+#twitter a:hover  	{color:#CCC;}
+#twitter a:active  	{color:#FF0000;}
 
 
 
-p.quote {
+li.quote {
 
 	font-style:italic;
 	color:#FF3; <!--yellow-->
@@ -316,18 +348,20 @@ p.quote {
 	
 footer {
 	
+	margin:25px;
 	clear:both;
 	width:1060px;
-	height:25px;
-	margin:0 auto;
+	padding:10px 0;
+
+	background-color:#C9F;
+	height:30px;
 			
-	background-color:gray;
 }
 
-footer p {
+footer li {
 		
-		font-family: 'Flavors';
 		text-align:center;
-		 
+		font-size:3em;
+
 }
 	
