@@ -165,7 +165,6 @@ header h1 {
 #logo {
 	
 	width:1065px;
-
 	position:relative;
 	
 }
@@ -227,7 +226,6 @@ a:active  {color:yellow;}
 
 body {
 	
-	margin:0 auto;
 	clear:both;
 	height:900px;
 	background-color:#FFFF33; 
@@ -240,6 +238,7 @@ body {
 #wrapper {
 		
 	width:1100px;
+	margin:0px auto;
 	
 }
 
@@ -324,12 +323,14 @@ p.order {
 	background-color:#C9F;
 	padding:10px;
 	margin:10px 0 0 0;
-	width:75%;
+	width:85%;
 	
 	border:0px solid;
 	border-radius:20px;
 	-moz-border-radius:20px; /* Old Firefox */
 	
+	height:160px;
+	overflow:scroll;
 }
 
 #twitter p {
