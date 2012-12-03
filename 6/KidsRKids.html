@@ -82,7 +82,7 @@
 	
 						<aside>
  
-							<ul>
+							<ul> <!-- side bar items -->
 								<li><a><p class ="order">Order by Phone</p></a></li>
 								
 								<li><h3><a>Personalize it!</a></h3></li>
@@ -92,14 +92,55 @@
 								<li><h3><a>Gift Certificates</a></h3></li>
 								
 								<div id="twitter">
-								
-								<a class="twitter-timeline" href="https://twitter.com/MichelleObama" data-widget-id="274641792434053120">
-									Tweets by @MichelleObama</a>
-								<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>	
+								<ul id='tweets'>	
+									<!-- tweet -->
+
+									<script src='https://raw.github.com/timrwood/moment/1.7.2/min/moment.min.js'></script>
+									<script>
+									$(document).ready(function() {
+									var username = 'aplusk';
+									var count = 10;
+
+									 // var query = "birds";
+									 // var url="http://search.twitter.com/search.json?q=" + query +
+									"&rpp=5&include_entities=true&result_type=mixed&callback=?";
+									$.getJSON('https://api.twitter.com/1/statuses/user_timeline.json?screen_name='
+									+ username + '&amp;callback=?',
+										  function(data) {
+										    $.each(data,function() {
+									             var tweet = this;
+									             var user = tweet.user;
+
+									             var li = $("<li>").addClass("tweet");
+
+									             $("<img>").attr("src",user.profile_image_url)
+									                       .appendTo(li);
+
+									             var date = moment(tweet.created_at);
+
+									             $("<div>")
+									                .text(date.fromNow())
+									                .addClass("tweetDate")
+									                .appendTo(li);
+
+									             $("<div>")
+									                .text(tweet.text)
+									                .addClass("tweetText")
+									                .appendTo(li);
+
+									             li.appendTo("#tweets");
+									             console.log(tweet);
+									           });
+										  });
+									});
+									</script>
+
+									</ul></div><!-- end twitter feed -->
+
+									<!-- end tweet js -->
+	
 							
-							
-							</div><!-- end twitter feed -->
-							</ul>
+							</ul><!-- end side bar items -->
 							
 						</aside>
 			
