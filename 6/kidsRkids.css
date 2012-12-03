@@ -227,12 +227,13 @@ a:active  {color:yellow;}
 
 body {
 	
+	margin:0 auto;
 	clear:both;
 	height:900px;
 	background-color:#FFFF33; 
 	<!-- yellow -->
 	
-	margin:0 auto;
+	
 }
 
 
@@ -252,6 +253,10 @@ section {
 		margin:0 25px;
 		background-color:#9933CC;
 		<!--purple-->	
+		
+		border:2px solid;
+		border-radius:25px 25px 0 0;
+		-moz-border-radius:25px 25px 0 0;; /* Old Firefox */
 }
 
 
