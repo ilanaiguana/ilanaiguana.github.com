@@ -101,25 +101,18 @@ table {
 
 .centered { 
   margin:0 auto;
-  width:1060;
 
 }
 
 
 /* start styling */
 
-p {
-
-	font-family: "Calluna";
-	
-}
-
 
 
 #wrap {
 	
 	width:1060px;
-	margin:auto 0;
+	margin:0 auto;
 }
 
 #logoWrapper {
@@ -151,7 +144,6 @@ header h1 {
 
 	font-family: 'Flavors';
 	color:red;
-	float:left;
 	font-size:5em;
 	padding:25px 10px 10px 300px;
  
@@ -197,9 +189,9 @@ header h1 {
 
 #top-nav h3 {
 	 
-	color:#0C0 ; <!-- green -->
+	color:#9933CC;			<!-- #0C0; green -->
 	width:25%;
-	font-family:'Helvetica' ;
+	font-family:'Helvetica', sans-serif ;
 	font-size:1.25em; 
 	
 }
@@ -329,13 +321,11 @@ p.order {
 	border-radius:20px;
 	-moz-border-radius:20px; /* Old Firefox */
 	
-	height:160px;
-	overflow:scroll;
+	
 }
 
-#twitter p {
-	
-	
+#twitter h1 {
+
 }
 
 #twitter a:link 	{color:#906; font-size:.85em; text-decoration:none;}
