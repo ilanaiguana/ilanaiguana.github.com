@@ -142,24 +142,29 @@ header h1 {
 
 #logo h1 {
 
-	font-family: 'Flavors';
+	font-family:'Flavors';
 	color:red;
 	font-size:5em;
-	padding:25px 10px 10px 300px;
+	padding:25px 25px 10px 225px;
+	
+		float:left;
  
 }
 
 #logo li {
 	
-	float:left;
+	font-family:'Flavors';
+	font-size:1.25em;
+	color:#0C0;
 }
 
 #logo {
 	
 	width:1065px;
 	position:relative;
-	
+		
 }
+
 
 #address h2 {
 	
@@ -176,7 +181,7 @@ header h1 {
 	width:1060px;
 	height:40px;
 	
-<!-- 	background-color:#9933CC; purple -->
+	background-color:#C9F; 
 
 }
 
@@ -184,7 +189,7 @@ header h1 {
 	 
 	float:left;
 	width:30%;
-	padding:15px 0px 0px 20px;
+	padding:10px 10px 0px 25px;
 }
 
 #top-nav h3 {
@@ -196,21 +201,7 @@ header h1 {
 	
 }
 
-.socialMedia li {  
-	
-}
 
-.twitterLogo li {
-	
-}
-
-.twitterLogo {
-
-}
-
-
-
-a:link    {color:#0C0;}
 a:visited {color:green;}
 a:hover   {color:red;}
 a:active  {color:yellow;}
@@ -245,16 +236,21 @@ section {
 		background-color:#9933CC;
 		<!--purple-->	
 		
-		border:2px solid;
-		border-radius:25px 25px 0 0;
-		-moz-border-radius:25px 25px 0 0;; /* Old Firefox */
+
 }
 
 
 section  p {
 
-
 	color:#FF3;
+}
+
+
+
+.titles {
+	font-size:3em;
+
+	font-family:'flavors';
 	
 }
 
@@ -265,6 +261,12 @@ section  p {
 	height:500px;
  	margin:10px 5px 10px 15px;
  	
+}
+
+#galleria li {
+	
+	float:right;
+	
 }
 
 .galleria-thumbnails {
@@ -290,7 +292,7 @@ aside a:hover {
 
 aside li h3 {
 
-		font-family:"Helvetica";
+		font-family:"Helvetica", sans-serif;
 		line-height:350%;
 		
 		margin:1px;
@@ -309,6 +311,11 @@ p.order {
 	
 }
 
+.order a:hover {
+	
+	color:red;
+	
+}
 
 #twitter {
 	
@@ -321,12 +328,21 @@ p.order {
 	border-radius:20px;
 	-moz-border-radius:20px; /* Old Firefox */
 	
+	height:90px;
+	overflow:hidden;
+
 	
 }
 
-#twitter h1 {
+.tweets p  {
 
+	font-family:sans-serif;
+	color:#9933CC;
+	font-size:.85em;
+	padding:5px 0px;
+	
 }
+
 
 #twitter a:link 	{color:#906; font-size:.85em; text-decoration:none;}
 #twitter a:visited 	{color:#9933CC;}

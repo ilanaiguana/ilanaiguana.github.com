@@ -33,13 +33,16 @@
 		<div id="logo">
 			
 		<ul>	
-		<li>	
-		<h1>Kids R Kids</h1></li>
+		<li><h1>Kids R Kids</h1></li>
 							
-							<li class = "socialMedia"><a><img src="images/facebook.jpeg" 			
-														alt="Facebook"></a></li>
-							<li class = "twitterLogo"><a><img src="images/twitter-bird-small.png" 
-													alt = "twitter"></a></li></ul>
+		<li class = "socialMedia"><a><img src="images/facebook.jpeg" alt="Facebook"></a></li>
+		<li class = "twitterLogo"><a><img src="images/twitter-bird-small.png" alt = "twitter"></a></li>
+													
+		<li>A toystore for your imagination...</li>
+													
+													</ul>
+
+
 
 			<nav id = "top-nav">
 
@@ -59,6 +62,10 @@
 
 				<section>
 					
+				
+						<!--  <p class='titles'>Games </p>  -->
+						
+							
 				<!-- images for galleria-slider -->
 					
 						<div id="galleria">
@@ -67,6 +74,9 @@
 						    <img src="images/artSupplies.jpg">
  				    		<img src="images/balls.jpg">
 							<img src="images/littlePetShop.jpg">
+							
+							
+
 						</div>
 						
 						<script>
@@ -74,66 +84,31 @@
 						
 							 Galleria.run('#galleria');
 							</script>
-							
+					
 				
 	
 						<aside>
  
 							<ul> <!-- side bar items -->
-								<li><a><p class ="order">Order by Phone</p></a></li>
+								<li><p class ="order"><a>Order by Phone</p></a></li>
 								
 								<li><h3><a>Personalize it!</a></h3></li>
 								
 								<li><h3><a>Holiday Specials</a></h3></li>
 								<li><h3><a>Art Classes</a></h3></li>
-								<li><h3><a>Gift Certificates</a></h3></li>
+								<li><h3><a>Gift Certificates</a></h3></li></ul>
 								
 								<div id="twitter">
-								<ul id='tweets'>	
-									<!-- tweet -->
-									<script>
-									$(document).ready(function() {
-									var username = 'michelleObama';
-									var count = 10;
-
-									 // var query = "michelleObama";
-									 // var url="http://search.twitter.com/search.json?q=" + query +
-									"&rpp=5&include_entities=true&result_type=mixed&callback=?";
-									$.getJSON('https://api.twitter.com/1/statuses/user_timeline.json?screen_name='
-									+ username + '&amp;callback=?',
-										  function(data) {
-										    $.each(data,function() {
-									             var tweet = this;
-									             var user = tweet.user;
-
-									             var li = $("<li>").addClass("tweet");
-
-									             $("<img>").attr("src",user.profile_image_url)
-									                       .appendTo(li);
-
-									             var date = moment(tweet.created_at);
-
-									             $("<div>")
-									                .text(date.fromNow())
-									                .addClass("tweetDate")
-									                .appendTo(li);
-
-									             $("<div>")
-									                .text(tweet.text)
-									                .addClass("tweetText")
-									                .appendTo(li);
-
-									             li.appendTo("#tweets");
-									             console.log(tweet);
-									           });
-										  });
-									});
-									</script>
-									
 								
-
-									</li>
-									</ul></div><!-- end twitter feed -->
+									<!-- tweet -->
+								
+										<li><div class='tweets'>
+										<blockquote class="twitter-tweet"><p>Useful checklist for making checklists. <a href="http://t.co/2ukQOP9F" title="http://risd.cc/R7FqwB">risd.cc/R7FqwB</a> via @<a href="https://twitter.com/atul_gawande">atul_gawande</a></p>&mdash; johnmaeda (@johnmaeda) <a href="https://twitter.com/johnmaeda/status/276337839812259840" data-datetime="2012-12-05T14:50:49+00:00">December 5, 2012</a></blockquote>
+										<script src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div></li>
+										
+									
+									
+									</div><!-- end twitter feed -->
 
 									<!-- end tweet js -->
 	
